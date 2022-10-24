@@ -1,0 +1,128 @@
+body{
+  background-color: black;
+}
+
+
+@media screen and (min-height: 700px) {
+  #imagenes {
+      height: 800px;
+  }
+}
+
+@media screen and (max-height: 699px) {
+  #imagenes{
+      height: 305px;
+  }
+}
+
+
+
+#menu{
+  	height: 38px;
+    width: 80px;
+    border-radius: 1px;
+    position: relative;
+    width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+    background-color: #000;
+    z-index: 1;
+    
+}
+
+ .imgredonda{
+    width:90%;
+    height:90%;
+    border-radius:100px;
+
+ }
+
+h6{
+
+color: #edeaea;
+font-size: Arial;
+size:"8";
+font-size: 30px;
+}
+
+
+h7{
+  color: #fff;
+  font-size: Arial;
+  size:"8";
+  font-size: 22px;
+
+}
+
+h8{
+  color: #fff;
+  font-size: Arial;
+  size:"8";
+  font-size: 40px;
+  font-weight: bold;
+
+}
+h9 {
+  color: #fff;
+  font-size: Arial;
+  size:"8";
+  font-size: 70px;
+  font-weight: bold;
+}
+h10 {
+  color: #fff;
+  font-size: Arial;
+  size:"8";
+  font-size: 45px;
+  font-weight: bold;
+}
+
+h11 {
+  color: #fff;
+  font-size: Arial;
+  size:"8";
+  font-size: 70px;
+  font-weight: bold;
+}
+
+h12 {
+  color: #fff;
+  font-size: Arial;
+  size:"8";
+  font-size: 27px;
+  font-weight: bold;
+
+}
+h13 {
+  color: #fff;
+  font-size: Arial;
+  size:"8";
+  font-size: 18px;
+
+}
+
+p6{
+  color: #fff;
+  font-size: Arial;
+  size:"8";
+  font-size: 20px;
+
+}
+
+@media screen and (max-width: 700px){
+  #menu{
+    height: 38px;
+    width: 80px;
+    border-radius: 1px;
+    position: relative;
+    width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+    background-color: #000;
+    z-index: 1;
+    margin-bottom: 160px;
+}
+h1{
+  font-size: 25px;
+}
+h4{
+  font-size: 19px;
+}
+
+}
